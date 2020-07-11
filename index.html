@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="javascript:download();">Download</a>
+        <div class="quiz-question-125102 quiz-question-div">
+            <b>Question.</b>
+            <div ng-bind-html="question.question" class="ng-binding">
+                <p><span>The
+                    information in w</span><span>hich of the following
+                    alternatives is </span><span><b>correctly</b></span><span>
+                    matched?</span>
+                </p>
+            </div>
+            <ul class="options-list">
+                <!-- ngRepeat: i in [1,2,3,4,5] --><!-- ngIf: question['option'+i] -->
+                <li ng-repeat="i in [1]" flex="" layout="row" style="align-items: center;" ng-if="question['option'+i]" ng-style="{color : (i == question.answer ? 'green' : (quizChartData.allResponses[user.id].responses[questionIndex] != question.answer &amp;&amp; quizChartData.allResponses[user.id].responses[questionIndex] == i) ? 'red' : '') }" class="ng-scope layout-row flex">
+                    <span class="ng-binding">1)&nbsp;</span>
+                    <div flex="" layout-wrap="" layout="row" style="align-items:center;" class="layout-wrap layout-row flex">
+                        <span ng-bind-html="question['option'+i]" class="ng-binding">
+                            <dl>
+                                <dl>
+                                    <dl>
+                                        <dd>
+                                            <table border="1" cellpadding="7" cellspacing="0">
+                                                <tbody>
+                                                    <tr valign="TOP">
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Improper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Proper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Mixed</b></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m7556bc5c.gif" align="ABSMIDDLE" width="21" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m6cfb324.gif" align="ABSMIDDLE" width="25" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_58a72374.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </dd>
+                                    </dl>
+                                </dl>
+                            </dl>
+                        </span>
+                        <!-- ngIf: quizChartData.allResponses[user.id].responses[questionIndex] == i -->
+                    </div>
+                </li>
+                <!-- end ngIf: question['option'+i] --><!-- end ngRepeat: i in [1,2,3,4,5] --><!-- ngIf: question['option'+i] -->
+                <li ng-repeat="i in [2]" flex="" layout="row" style="align-items: center;" ng-if="question['option'+i]" ng-style="{color : (i == question.answer ? 'green' : (quizChartData.allResponses[user.id].responses[questionIndex] != question.answer &amp;&amp; quizChartData.allResponses[user.id].responses[questionIndex] == i) ? 'red' : '') }" class="ng-scope layout-row flex">
+                    <span class="ng-binding">2)&nbsp;</span>
+                    <div flex="" layout-wrap="" layout="row" style="align-items:center;" class="layout-wrap layout-row flex">
+                        <span ng-bind-html="question['option'+i]" class="ng-binding">
+                            <dl>
+                                <dl>
+                                    <dl>
+                                        <dd>
+                                            <table border="1" cellpadding="7" cellspacing="0">
+                                                <tbody>
+                                                    <tr valign="TOP">
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Improper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Proper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Mixed</b></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m5dfde585.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_294b7dac.gif" align="ABSMIDDLE" width="31" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m687ed983.gif" align="ABSMIDDLE" width="15" height="41"></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </dd>
+                                    </dl>
+                                </dl>
+                            </dl>
+                        </span>
+                        <!-- ngIf: quizChartData.allResponses[user.id].responses[questionIndex] == i -->
+                    </div>
+                </li>
+                <!-- end ngIf: question['option'+i] --><!-- end ngRepeat: i in [1,2,3,4,5] --><!-- ngIf: question['option'+i] -->
+                <li ng-repeat="i in [3]" flex="" layout="row" style="align-items: center;" ng-if="question['option'+i]" ng-style="{color : (i == question.answer ? 'green' : (quizChartData.allResponses[user.id].responses[questionIndex] != question.answer &amp;&amp; quizChartData.allResponses[user.id].responses[questionIndex] == i) ? 'red' : '') }" class="ng-scope layout-row flex">
+                    <span class="ng-binding">3)&nbsp;</span>
+                    <div flex="" layout-wrap="" layout="row" style="align-items:center;" class="layout-wrap layout-row flex">
+                        <span ng-bind-html="question['option'+i]" class="ng-binding">
+                            <dl>
+                                <dl>
+                                    <dl>
+                                        <dd>
+                                            <table border="1" cellpadding="7" cellspacing="0">
+                                                <tbody>
+                                                    <tr valign="TOP">
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Improper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Proper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Mixed</b></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m15ea9820.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_26bcdb9.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m649016fc.gif" align="ABSMIDDLE" width="25" height="41"></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </dd>
+                                    </dl>
+                                </dl>
+                            </dl>
+                        </span>
+                        <!-- ngIf: quizChartData.allResponses[user.id].responses[questionIndex] == i -->
+                    </div>
+                </li>
+                <!-- end ngIf: question['option'+i] --><!-- end ngRepeat: i in [1,2,3,4,5] --><!-- ngIf: question['option'+i] -->
+                <li ng-repeat="i in [4]" flex="" layout="row" style="align-items: center; color: green;" ng-if="question['option'+i]" ng-style="{color : (i == question.answer ? 'green' : (quizChartData.allResponses[user.id].responses[questionIndex] != question.answer &amp;&amp; quizChartData.allResponses[user.id].responses[questionIndex] == i) ? 'red' : '') }" class="ng-scope layout-row flex">
+                    <span class="ng-binding">4)&nbsp;</span>
+                    <div flex="" layout-wrap="" layout="row" style="align-items:center;" class="layout-wrap layout-row flex">
+                        <span ng-bind-html="question['option'+i]" class="ng-binding">
+                            <dl>
+                                <dl>
+                                    <dl>
+                                        <dd>
+                                            <table border="1" cellpadding="7" cellspacing="0">
+                                                <tbody>
+                                                    <tr valign="TOP">
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Improper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Proper</b></p>
+                                                        </td>
+                                                        <td bgcolor="#e0e0e0">
+                                                            <p align="CENTER"><b>Mixed</b></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m9ea8aec.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m4cf357be.gif" align="ABSMIDDLE" width="16" height="41"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p align="CENTER"><img src="https://www.meritnation.net/img/study_content/fat/1/6/1/7/23/959/6-7-21(PLO)_SS_SNK_6.1.7.1.1_Q5_OK_html_m5096c97c.gif" align="ABSMIDDLE" width="25" height="41"></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </dd>
+                                    </dl>
+                                </dl>
+                            </dl>
+                        </span>
+                        <!-- ngIf: quizChartData.allResponses[user.id].responses[questionIndex] == i -->
+                    </div>
+                </li>
+                <!-- end ngIf: question['option'+i] --><!-- end ngRepeat: i in [1,2,3,4,5] --><!-- ngIf: question['option'+i] --><!-- end ngRepeat: i in [1,2,3,4,5] -->
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function download() {
+                   html2canvas(document.querySelector(".quiz-question-125102"), { proxy: 'https://crystal.meritnation.newnav/htmltocanvas-proxy' }).then(canvas => {
+                       var link = document.createElement('a');
+            		link.download = 'filename.png';
+            		link.href = canvas.toDataURL();
+            		link.click();
+                   });
+            }
+            
+        </script>
+        <script src="html2canvas.min.js"></script>
+    </body>
+</html>
